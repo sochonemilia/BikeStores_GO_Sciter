@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!-- <link rel="stylesheet" href="style.css" type="text/css" /> -->
+      <style>
+         body {
+         background-color:#f2f3f5;
+         }
+         #container{
+         width: 100%;
+         height: 100%;
+         margin-left: auto;
+         margin-right: auto; 
+         /* background-color:lime; */
+         }
+         #sqlscriptarea1{
+         /* background-color: crimson; */
+         color: salmon;
+         float: left;
+         width: 100%;
+         height: 100px;
+                  }
+         #execclosediv{
+         /* background-color: maroon; */
+         height:fit-content;
+         width: 80%;
+         }
+      </style>
+   </head>
+   <body>
+      <div id="container">
+         <h3>Generate SQL script</h3>
+         <button id="SELECT" #selectbtn>SELECT</button>
+         <button id="Clear" #clearbtn>Clear</button>
+         <!-- <button label="UPDATE" #updatebtn>UPDATE</button>
+            <button label="DELETE" #deletebtn>DELETE</button> -->
+         <!-- <button label="Execute" style="float: right;" #deletebtn>Execute</button> -->
+      </div>
+      <div id=sqlscriptarea1><textarea name="sqlscriptarea" style="width: 80%;height: 100%;" #sqlscriptarea>test</textarea></div>
+      <div id=execclosediv>
+         <button label="Execute" #deletebtn>Execute</button>
+         <button label="close" #closebtn style="float: right;">Close</button>
+      </div>
+   </body>
+</html>
